@@ -1,5 +1,5 @@
 import streamlit as st
-from hangangdata import STATUTES  # 핵심! 파일 이름(hangangdata)에 맞춰서 불러옵니다.
+from hangangdata import STATUTES  # 이 부분이 hangangdata로 잘 되어있는지 확인!
 
 # 1. 앱 설정
 st.set_page_config(page_title="한강맨션 정관 검색", page_icon="📜", layout="wide")
